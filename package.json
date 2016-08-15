@@ -1,0 +1,13 @@
+{
+  "name": "docker-drakov",
+  "version": "1.0.0",
+  "description": "Package json file to install and start drakov daemon in docker",
+  "scripts": {
+    "start": "$(npm bin)/drakov -f /etc/secrets/api.md"
+  },
+  "author": "Tony Deng <wolf.deng@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "drakov": "^1.0.1"
+  }
+}
