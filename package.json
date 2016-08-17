@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Package json file to install and start drakov daemon in docker",
   "scripts": {
-    "start": "$(npm bin)/drakov -f '/etc/secrets/*.md' -p 4007"
+    "start": "$(npm bin)/drakov -f '/etc/secrets/*.md' -p 4007 --public"
   },
   "author": "Tony Deng <wolf.deng@gmail.com>",
   "license": "MIT",

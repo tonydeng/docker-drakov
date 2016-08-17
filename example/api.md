@@ -36,6 +36,15 @@ API Blueprint Example entry point.
 
     + Attributes (MessageList)
 
+### Create Messages [POST]
+
++ Request (application/json)
+
+    + Attributes (Message)
+
++ Response 201
+
+
 ## A Single Message [/message/{id}]
 Message description
 
